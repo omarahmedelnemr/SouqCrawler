@@ -2,13 +2,13 @@
 
 This Is A tool To Scrap All Pages for a spicific product 
 
-Python Commands:
+Useful Commands:
 ```python
-SouqCrawler() #Call the Module
+crawler = SouqCrawler() #Call the Module
 
-.getFor(Name) # Set The File To search for {Name} product
+crawler.getFor(Name) # Set The File To search for {Name} product
 
-.start(limit) Start Scraping "Limit If You Want limit products ,Leave it too get all products"
+crawler.start(limit) #Start Scraping Limit "If You Want limited products ,Leave it to get all products"
 
-.page : starting page ,default =1
+crawler.page =1 #starting page ,default =1
 ```
